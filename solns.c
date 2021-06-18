@@ -14,7 +14,7 @@ int max(int a[], int b) {
 int min(int a[], int b) {
     int c = a[0];
     for (int i=1; i< b; i++) {
-        if (a[i < c]) {
+        if (a[i] < c) {
             c = a[i];
         }
     }
